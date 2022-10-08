@@ -1,0 +1,393 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Radjani", sans-serif;
+}
+
+main{
+  min-height: 100vh;
+}
+
+h1{
+  font-family: 'Rajdhani', sans-serif;
+}
+
+ul{
+  list-style:none;
+}
+
+li{
+  text-transform: uppercase;
+  color:#107aa8;
+}
+
+.Sarahs-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #346D9E ;
+/*   add some padding-top and padding-bottom on the next 2 line, between 10 and 20 px should be enough, play around with this until you are happy with the appearance */
+/*   padding-top: 16px;
+  padding-bottom: 16px; */
+}
+
+.Sarah-list-items{
+  font-size: 17px; 
+  color: #66AEEB;
+  margin-left: 20px;
+  margin: 10px;
+  text-transform: uppercase;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.Sarah-list-items > a{
+  text-decoration: none;
+  color: #e8e8e8;
+}
+
+.Sarah-list-items > a:hover{
+  color: white;
+  font-weight: 550;
+}
+
+.hero-image{
+  width:100vw;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  background-color: #fefefe;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 15px;
+}
+
+.logo-image {
+  height: 80px;
+  width: auto;
+  margin: auto;
+  align-self: flex-start;
+}
+
+
+
+
+/* CARD STYLES */
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  display:flex;
+  flex-direction: row;
+  border-radius: 10px;
+  max-width: 45%;
+  min-width: 350px;
+  max-height: 350px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  margin-left: 0;  
+  margin-right: 0;
+  font-family: "Rhajdhani", sans-serif;
+  background-color: white;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.card-body {
+  line-height: 1.5;
+  padding: 0 1em;
+  margin-bottom: 0.8em;
+}
+
+.card-img {
+  max-height: auto;
+  width: 45%;
+  height: auto;
+  padding-bottom: 2em;
+}  
+
+.centered {
+  width: 65vw;
+  margin-left: 17.5%;
+}
+
+footer {
+  background-color: gray;
+  height: 200px;
+  margin-top: 50px;
+  padding: 50px 100px;
+}
+
+.footer-list{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  list-style: none;
+}
+
+.footer-list-items > a{
+  line-height:2.2;
+  text-decoration:none;
+  font-size: 1em;
+  font-family: sans-serif;
+  color:#fefefe;
+  text-transform: uppercase;
+}
+
+.flex-container-col {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-img-medium {
+  max-height: auto;
+  width: 50%;
+  padding-bottom: 2em;
+}
+
+.padding-right-left {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  width: 50%;
+}
+
+.padding-top-bottom {
+  padding-top: 8rem;
+  padding-bottom 8rem;
+}
+
+/* About styles */
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-greeting{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  height: 28rem;
+  width: auto;
+  border-radius: 50%;
+}
+
+.mb1 {
+  margin-bottom: 1em;
+}
+
+.mb2 {
+  margin-bottom : 2em;
+}
+
+.margin-right-left {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.about-info {
+  padding-left: 4em;
+}
+
+.about-para {
+  line-height: 1.6;
+}
+
+.mt1 {
+  margin-top: 1em;
+}
+
+.mt2 {
+  margin-top: 2em;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-icon {
+  height: 100px;
+  width: auto;
+}
+
+.skill-icon-small {
+  height: 80px;
+  width: aouto;
+}
+
+.small-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-heading {
+  font-weight: 900;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.main-about {
+  width: 70vw;
+  margin-left: 15zw;
+}
+
+.info-section-para {
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+.blur-bg {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 8px;
+  border-radius: 6px 6px 0 6px;
+  color: #fff;
+  width: 50%;
+}
+
+.solution-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  min-height: 300px;
+  width: 50vw;
+  height:auto;
+  border-radius: 10px;
+}
+
+.solution1 {
+  background-image: url("https://thumbs.dreamstime.com/z/energy-efficient-house-environmental-resources-usage-outline-diagram-energy-efficient-house-environmental-resources-231447939.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.solution2{
+  background-image: url("https://culturetrekking.com/images/img_MmTGqsHD8UFByjsP3LxyRu/adobestock_294945819.jpeg?fit=outside&w=1600");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.solution3 {
+  background-image: url("");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+    
+.solution4 {
+  background-image: url("");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.solution5 {
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+    
+.solution6 {
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.hobbies-contact {
+  display: flex;
+  justify-content: space-between;
+} 
+
+.hobbies {
+  max-width: 45%;
+}
+
+.about-para {
+  font-family: "Roboto", sans-serif;
+  line-hieght: 1.2;
+}
+
+.contact-btn {
+  background-color: rgb(53, 40, 255);
+  color: #ffffff;
+  border: none;
+  width: 60%;
+  margin-top: 10px;
+  margin-left: 20%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 30px;
+}
+  
+.contact-btn:hover {
+  background-color: #006dcc (74, 71, 255);
+  box-shadow: 4px 4px 12px rgba(5, 4, 22, 0.5);
+}
+
+.lrg-text {
+ font-size: 1rem; 
+}
+
+.card-small-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 50vw;
+  margin-bottom: 4rem;
+}
+
+.card-small {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 45%;
+  min-height: 300px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  margin-left: 0;  
+  margin-right: 0;
+  font-family: "Rhajdhani", sans-serif;
+  background-color: white;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.card-img-small {
+  max-height: auto;
+  width: 100%;
+  margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
